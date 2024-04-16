@@ -33,6 +33,8 @@ SHEET_ID = os.getenv('SHEET_ID')
 API_KEY = os.getenv('API_KEY') 
 MAIL_ID = os.getenv('MAIL_ID') 
 PASSWORD = os.getenv('PASSWORD')
+print(MAIL_ID)
+print(PASSWORD)
 
 
 def main() -> None:
